@@ -1,0 +1,1 @@
+cmd_/home/user/Lab1/lunix.ko := ld -r -m elf_x86_64 -T /usr/src/linux-headers-2.6.32-5-common/scripts/module-common.lds --build-id -o /home/user/Lab1/lunix.ko /home/user/Lab1/lunix.o /home/user/Lab1/lunix.mod.o
